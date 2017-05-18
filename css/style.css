@@ -336,7 +336,7 @@
     height: 200px; }
 
   .yoga-image_img, .subpoint_yoga-image_image {
-    width: 70%; }
+    width: 45%; }
 
   .subpoint_text {
     font-size: 1.25rem; }
@@ -353,7 +353,8 @@
     margin-bottom: 20px; }
 
   .image-description_text {
-    font-size: 150%; }
+    font-size: 150%;
+    padding: 0 5%; }
 
   .pricing-box {
     width: 70%;
