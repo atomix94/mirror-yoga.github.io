@@ -402,15 +402,28 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
      
      .image-description_text
      {
-         font-size:150%;
+         font-size:1.25rem;
          padding:0 5%;
      }
+     .specs-list_text
+     {
+         font-size:1.25rem;
+     }
      
+     .specs-list_element
+     {
+         font-size:1.25rem;
+     }
      .pricing-box
      {
          width:70%;
          margin:10px auto;
          overflow-x: hidden;
+     }
+     
+     .pricing-box_text
+     {
+         font-size:1.25rem;
      }
      .pricing-box::after
      {
@@ -419,10 +432,12 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
      .pricing-box_type
      {
          width:50%;
+         padding:1%;
      } 
 .pricing-box_type--middle
      {
          width:50%;
+         padding:1%;
      }
 .pricing-box_type_text
      {

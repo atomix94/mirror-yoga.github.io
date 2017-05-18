@@ -358,22 +358,33 @@
     margin-bottom: 20px; }
 
   .image-description_text {
-    font-size: 150%;
+    font-size: 1.25rem;
     padding: 0 5%; }
+
+  .specs-list_text {
+    font-size: 1.25rem; }
+
+  .specs-list_element {
+    font-size: 1.25rem; }
 
   .pricing-box {
     width: 70%;
     margin: 10px auto;
     overflow-x: hidden; }
 
+  .pricing-box_text {
+    font-size: 1.25rem; }
+
   .pricing-box::after {
     width: auto; }
 
   .pricing-box_type {
-    width: 50%; }
+    width: 50%;
+    padding: 1%; }
 
   .pricing-box_type--middle {
-    width: 50%; }
+    width: 50%;
+    padding: 1%; }
 
   .pricing-box_type_text {
     padding: 2%;
