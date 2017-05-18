@@ -6,7 +6,7 @@
     background-position: center;
     width: 100vw;
     height: 100vh;
-    font-family: "PT Serif", serif;
+    font-family: "PT Serif" serif;
     overflow-x: hidden;
     margin: 0;
     padding: 0; }
@@ -59,7 +59,7 @@
 
   .subpoint_yoga-image_image {
     width: 100%;
-    height: auto; }
+    height: 300px; }
 
   .subpoint_yoga-image_img {
     display: -webkit-box;
@@ -146,7 +146,8 @@
     font-size: 1rem;
     border-radius: 6%;
     font-weight: 700;
-    margin-top: 6%; }
+    margin-top: 6%;
+    margin-bottom: 3%; }
 
   .specs-list_element {
     list-style-image: url("img/pointer.png");
@@ -209,7 +210,7 @@
     margin: 0; }
 
   .image-description_age {
-    margin: 0; }
+    margin: 0 0 5% 0; }
 
   .image-description:nth-of-type(3) {
     margin-bottom: 10%; }
@@ -399,7 +400,7 @@
     padding: 0;
     overflow-x: hidden;
     max-width: 100vw;
-    font-family: "PT Serif", serif; }
+    font-family: "PT Serif" serif; }
 
   header {
     display: -webkit-box;
@@ -446,21 +447,21 @@
       display: block;
       z-index: 12;
       position: absolute;
-      -webkit-transform: translateX(100vw);
-          -ms-transform: translateX(100vw);
-              transform: translateX(100vw);
+      right: 100vw;
       opacity: 0;
       top: 8%;
-      width: 100vw;
-      -webkit-transition: opacity linear 0.25s, -webkit-transform linear 0.25s;
-              transition: opacity linear 0.25s, transform linear 0.25s; }
+      -webkit-transition: right linear 0.25s, opacity linear 0.25s;
+              transition: right linear 0.25s, opacity linear 0.25s; }
       .menu-mobile > .mobile li {
         width: 100vw;
         position: relative;
         top: 20%;
         text-align: center;
+        color: #66a900;
+        font-weight: 800;
+        border: 1px solid #66a900;
         padding: 3%;
-        background-color: #66a900;
+        background-color: white;
         text-transform: uppercase; } }
 @media only screen and (min-width: 480px) {
   body {
@@ -468,7 +469,7 @@
     padding: 0;
     overflow-x: hidden;
     max-width: 100vw;
-    font-family: "PT Serif", serif; }
+    font-family: "PT Serif" serif; }
 
   header {
     display: -webkit-box;
@@ -512,17 +513,13 @@
     .menu-mobile > .mobile {
       color: white;
       list-style-type: none;
-      display: block;
+      display: none;
       z-index: 12;
       position: absolute;
-      -webkit-transform: translateX(100vw);
-          -ms-transform: translateX(100vw);
-              transform: translateX(100vw);
-      opacity: 0;
       top: 8%;
       width: 100vw;
-      -webkit-transition: opacity linear 0.25s, -webkit-transform linear 0.25s;
-              transition: opacity linear 0.25s, transform linear 0.25s; }
+      -webkit-transition: right linear 0.25s, display linear 0.25s;
+              transition: right linear 0.25s, display linear 0.25s; }
       .menu-mobile > .mobile li {
         width: 100vw;
         position: relative;

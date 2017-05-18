@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&amp;subset=latin-ext" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
 
 
@@ -270,14 +272,14 @@
     if (clicks % 2 === 0)
         {
             $(".mobile").css('opacity','1');
-             $('.mobile').css('transform','translateX(0)');
+             $('.mobile').css('right','0');
             clicks++;
             
         }
     else {
         
         $('.mobile').css('opacity','0');
-        $('.mobile').css('transform','translateX(100vw)');
+        $('.mobile').css('right','100vw');
         clicks++;
         
           
@@ -291,8 +293,8 @@
     
     $(".menu-mobile > .mobile > li").click(function(){
              
-       $('.mobile').css('opacity','0');
-        $('.mobile').css('transform','translateX(100vw)');
+       //$('.mobile').css('display','none');
+       // $('.mobile').css('transform','translateX(100vw)');
        
         clicks++;
         
