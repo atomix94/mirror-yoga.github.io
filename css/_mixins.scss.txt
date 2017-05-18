@@ -1,0 +1,11 @@
+@mixin shape
+{
+
+
+background-image:url(img/shape.png);
+    background-size: contain;
+    width:100%;
+    height:20px;
+    background-repeat: no-repeat;
+
+}
