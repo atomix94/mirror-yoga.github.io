@@ -349,6 +349,12 @@
   .shape {
     height: 50px; }
 
+  .points-container_circle-text {
+    font-size: 1.25rem; }
+
+  .green-container_text {
+    font-size: 1.25rem; }
+
   .image-description_name {
     margin-top: 20px;
     font-size: 130%; }
