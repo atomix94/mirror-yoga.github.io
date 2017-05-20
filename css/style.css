@@ -337,6 +337,12 @@
   .shape {
     background-size: cover; } }
 @media only screen and (min-width: 768px) {
+  .welcome_heading {
+    font-size: 6rem; }
+
+  .welcome_text {
+    font-size: 2rem; }
+
   .shape2 {
     height: 200px; }
 
