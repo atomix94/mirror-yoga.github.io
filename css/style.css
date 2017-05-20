@@ -352,6 +352,9 @@
   .points-container_circle-text {
     font-size: 1.25rem; }
 
+  .points-container_number {
+    font-size: 1.25rem; }
+
   .green-container_text {
     font-size: 1.25rem; }
 
@@ -530,20 +533,24 @@
     .menu-mobile > .mobile {
       color: white;
       list-style-type: none;
-      display: none;
+      display: block;
       z-index: 12;
       position: absolute;
+      right: 100vw;
+      opacity: 0;
       top: 8%;
-      width: 100vw;
-      -webkit-transition: right linear 0.25s, display linear 0.25s;
-              transition: right linear 0.25s, display linear 0.25s; }
+      -webkit-transition: right linear 0.25s, opacity linear 0.25s;
+              transition: right linear 0.25s, opacity linear 0.25s; }
       .menu-mobile > .mobile li {
         width: 100vw;
         position: relative;
         top: 20%;
         text-align: center;
+        color: #66a900;
+        font-weight: 800;
+        border: 1px solid #66a900;
         padding: 3%;
-        background-color: #66a900;
+        background-color: white;
         text-transform: uppercase; } }
 /*
 body
