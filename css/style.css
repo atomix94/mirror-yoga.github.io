@@ -145,6 +145,9 @@
     padding: 0;
     margin: 0; }
 
+  .green-container_wrapper {
+    padding: 0 2%; }
+
   .green-container_button {
     background-color: white;
     color: #66a900;
