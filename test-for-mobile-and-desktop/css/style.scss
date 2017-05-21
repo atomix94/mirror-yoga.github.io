@@ -1,0 +1,87 @@
+$font:'PT Serif' serif;
+$default-color:white;
+$numbers-color:lightgray;
+$greentext:#66a900;
+
+@import 'mixins';
+@import 'sections';
+@import 'navmobile';  
+
+/*
+body
+{
+    max-width:100%;
+    margin:0;
+    padding:0;
+overflow-x: hidden;  
+}
+
+
+.head
+{
+ 
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+   font-family: $font;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+
+
+
+
+}
+
+
+
+.head-logo
+
+{  
+    padding:1%;
+    
+}
+
+
+
+header
+{
+    display:flex;
+    
+  
+}
+
+nav
+{
+    justify-content: flex-end;
+    width:83vw;
+    box-sizing: border-box;
+}
+
+
+.menu 
+    { 
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        & > ul
+        {
+              
+           display:flex;
+        list-style-type: none;
+          
+    
+
+            & > li 
+    {      
+      
+        margin:5%;
+        color:$default-color; }
+}
+    }
+
+*/
