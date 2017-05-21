@@ -16,7 +16,7 @@ overflow-x: hidden;
     background-image: url(img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     width:100vw;
     height:100vh;
    font-family: $font;
@@ -44,6 +44,7 @@ overflow-x: hidden;
             margin-left:2%;
             font-weight:500;
             margin-bottom: 0;
+            line-spacing:65px;
             
         }
     
@@ -192,7 +193,10 @@ overflow-x: hidden;
             color:$numbers-color;
             
         }
-     
+     .specs-list_element_wrapper
+     {
+         padding-left:4%;
+     }
      
 
 .yoga-image
@@ -220,7 +224,7 @@ overflow-x: hidden;
          {
              color:$numbers-color;
              justify-content: center;
-             padding:0 2%;
+             padding:0 4%;
              
          }
          
