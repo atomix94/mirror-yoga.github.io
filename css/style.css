@@ -600,7 +600,8 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 65%; }
+    width: 65%;
+    padding: 0; }
 
   .subpoint_heading_wrapper {
     width: 55%; }
@@ -647,7 +648,8 @@
 
   .pricing-box {
     max-width: 380px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    margin: 0 1%; }
 
   .pricing-box::after {
     background-position: left; }
