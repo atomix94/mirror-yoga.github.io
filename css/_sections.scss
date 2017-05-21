@@ -11,7 +11,7 @@
     background-image: url(img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     width:100vw;
     height:100vh;
    font-family: $font;
@@ -410,7 +410,10 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
          width:100%;
          height:auto;
      }
-
+.subpoint_numbers
+    {
+        font-size:4rem;
+    }
      .subpoint_text
      {
          font-size:1.25rem;
@@ -472,10 +475,14 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
      {
          font-size:1.25rem;
      }
+     .specs-list_element_wrapper
+     {
+         padding-left:4%;
+     }
      .pricing-box
      {
          width:70%;
-         margin:10px auto;
+         margin:20px auto;
          overflow: hidden;
          box-sizing: border-box;
      }
@@ -518,11 +525,64 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
 
 
 @media only screen and (min-width : 992px) {
-
+   
     .welcome_heading
     {
-        font-size:6rem;
+        font-size:3.5rem;
+        line-height:70px;
+        width:50%;
+        font-weight: 700;
     }
+    .welcome-wrapper
+    {
+        position:relative;
+        top:25%;
+    }
+    .menu-mobile 
+    {
+        display:none !important;
+        
+    }
+    .menu
+    {
+        display:block !important;
+    }
+    .menu_content
+    {
+        list-style-type: none;
+        color:white;
+        display:flex;
+        position: relative;
+        right:15%;
+    }
+    .menu_content_element
+    {
+        padding: 10px 25px;
+        font-size:1rem;
+    }
+    .menu_content_element:hover
+    {
+        background-color:lightgreen;
+        padding: 10px 25px;
+        font-size:1rem;
+    }
+    
+    .menu_content_element:active
+    { padding: 10px 25px;
+        font-size:1rem;
+    }
+     .menu_content_element:focus
+    {padding: 10px 25px;
+        font-size:1rem;
+        
+    }
+    .menu_content_element_link
+    
+    {
+        color:white;
+        text-decoration: none;
+    }
+    
     .shape
     {
         min-height:70px;
@@ -533,6 +593,23 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
     {
       display:flex;
         
+        
+    }
+    .subpint--column
+    {
+        flex-direction: column;
+    }
+    
+    .subpoint--reverse
+    {
+        flex-direction: row-reverse;
+            display:flex;
+    }
+    .subpoint_heading
+    {
+        text-align: left;
+        padding-left:3%;
+        width:95%;
     }
     
     .subpoint-wrapper
@@ -543,20 +620,24 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
     
     .subpoint_yoga-image_image
     {
-        width:100%;
+        min-width:120%;
+        height:auto;
+        
       
         
     }
     
-    .yoga-image
+    .subpoint_numbers
     {
-        order:-1;
+        font-size:5rem;
     }
+    
     .yoga-image_img
     {
         width:100%;
         height:auto;
     }
+  
    .green-container
     {
         flex-direction: row;
@@ -585,31 +666,54 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
     }
     .points-container_circle-text
     {
-        width:250px;
+        min-width:285px;
     }
-    .test-wrapper
+   
+    .specs-list_element_wrapper
     {
+        display:flex;
+        width:65%;
+
+      
+    }
+    .subpoint_heading_wrapper
+    {
+        width:55%;
+    }
+    .subpoint-content_wrapper
+    {
+        display:flex;
+    }
+    .specs-list
+    {
+        display:inline-flex;
+    }
+    .specs-list_element_wrapper_2x2
+    
+    {
+     display:flex;
+        width:50%;
+        flex-direction: column;
+        margin-left:4%;
         
     }
-    
     .specs-list_element
     {
-        width:40%;
-        
+        width:65%;
     }
     .specs-list_text
     {
-        width:40%;
+        width:100%;
     }
     
     .pricing-box_wrapper
     {
-        display:inline-flex;
+        display:flex;
         justify-content: space-around;
     }
     .pricing-box
     {
-        width:30%;
+        max-width:380px;
         box-sizing:border-box;
     }
     .pricing-box::after
@@ -628,7 +732,7 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
     {
         flex-direction: row;
         justify-content: space-around;
-        padding:2%;
+       margin-bottom:2%;
     }
     .footer-content_wrapper
     {
@@ -648,4 +752,8 @@ box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.23);
         
     }
 
+    #pricing
+    {
+        margin-bottom:0;
+    }
 }
