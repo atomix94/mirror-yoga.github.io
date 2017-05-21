@@ -420,7 +420,8 @@
   .pricing-box {
     width: 70%;
     margin: 10px auto;
-    overflow: hidden; }
+    overflow: hidden;
+    box-sizing: border-box; }
 
   .pricing-box_text {
     font-size: 1.25rem; }
