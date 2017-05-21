@@ -1,5 +1,10 @@
 .html, body {
-  max-width: 100%; }
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 @media only screen and (min-width: 320px) {
   .head {
@@ -580,7 +585,7 @@
     background-repeat: no-repeat; }
 
   .points-container_circle-text {
-    min-width: 285px; }
+    min-width: 355px; }
 
   .specs-list_element_wrapper {
     display: -webkit-box;
