@@ -28,11 +28,11 @@
       <div class="menu-mobile">
          <span class="icon">&#9776;</span>
           <ul class="mobile">
-               <li>Welcome</li>
-               <li>About</li>
-               <li>Features</li>
-               <li>Testimonials</li>
-               <li>Pricing</li>
+               <li><a href="#whatis">Welcome</a></li>
+               <li><a href="#practice">About</a></li>
+               <li><a href="#choose">Features</a></li>
+               <li><a href="#people">Testimonials</a></li>
+               <li><a href="#pricing">Pricing</a></li>
            </ul>
       </div>
        <div class="menu">
@@ -303,7 +303,7 @@
     $(document).ready(function(){
         
         
-        
+    ////////////////////////////////////////////////////////    
         
     
    var clicks = 0;
@@ -329,14 +329,14 @@
         
         
     })
-    });
+ 
 
 
     
     $(".menu-mobile > .mobile > li").click(function(){
              
-       //$('.mobile').css('display','none');
-       // $('.mobile').css('transform','translateX(100vw)');
+       $('.mobile').css('opacity','0');
+       $('.mobile').css('right','100vw');
        
         clicks++;
         
@@ -345,11 +345,39 @@
      
      
       });  
-    
-    
+    });
+        
+        $(window).scroll(function()
+     {
+            
+        
+        //////////////////////////////////////////////////////////
+        
+        if ($(window).scrollTop() > 0 )
+            {
+                
+              
+                
+                $('header').addClass('scroll');
+               // $("header").css('position','fixed');
+               // $('header').css('background-color','green');
+               // $('header').css('z-index','99');
+                
+           
+            }
+        else
+            
+            {
+       $('header').removeClass('scroll');
+           
+            
+            
+            }
+        
+       });
+        
      
     
-        
        
     
     
