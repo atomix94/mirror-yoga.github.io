@@ -18,10 +18,14 @@
 
 </head>
 <body>
+<section id="top">
  <div class="head">
   <header>
     <div class="head-logo">
-        <img src="css/img/logo.png" alt="logo-image">
+        <a href="#top"><img src="css/img/logo.png" alt="logo-image">
+            
+            
+        </a>
     </div>
     <nav>
       
@@ -49,6 +53,7 @@
          </nav> 
          
   </header>
+     
       <div class="welcome-wrapper">
          <h1 class="welcome_heading">REFRESH YOURSELF BY YOGA EXERCISE</h1>
          <p class="welcome_text">Duis autem vel eum iriure dolor in hendrerit <br>in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
@@ -56,6 +61,7 @@
      
      
       </div>
+      </section>
       <div class="shape">
           
       </div>
@@ -345,6 +351,76 @@
      
      
       });  
+        
+        $('.head-logo').click(function(){
+            
+            $('html,body').animate({
+                
+               scrollTop: $('#top').offset().top
+                
+                
+            },700);
+        })
+       
+            
+            
+            
+        
+        
+        $('li:nth-child(1)').click(function(){
+        
+       $('html, body').animate({
+        scrollTop: $("#whatis").offset().top-60
+    }, 700);
+        
+            
+            
+        })
+        
+        $('li:nth-child(2)').click(function(){
+            
+        $('html,body').animate({
+        
+        scrollTop:$('#practice').offset().top-60
+        
+        },700);    
+            
+            
+        })
+        
+        $('li:nth-child(3)').click(function(){
+            
+           $('html,body').animate({
+               
+               scrollTop:$('#choose').offset().top-80
+           },700); 
+            
+            
+        })
+        
+        $('li:nth-child(4)').click(function(){
+            
+          $('html,body').animate({
+              scrollTop:$('#people').offset().top-60
+              
+              
+          },700);  
+            
+            
+        })
+        
+           
+        $('li:nth-child(5)').click(function(){
+            
+          $('html,body').animate({
+              scrollTop:$('#pricing').offset().top-60
+              
+              
+          },700);  
+            
+            
+        })
+        
     });
         
         $(window).scroll(function()
@@ -369,10 +445,7 @@
             
             {
        $('header').removeClass('scroll');
-           
-            
-            
-            }
+           }
         
        });
         
