@@ -103,7 +103,11 @@ body {
             justify-content: flex-start;
     width: 100%;
     margin-left: 5%;
-    margin-bottom: 3%; }
+    margin-bottom: 3%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
   .points-container_points {
     color: white;
@@ -719,6 +723,7 @@ body {
     .menu-mobile > .mobile {
       color: white;
       list-style-type: none;
+      background-color: #609e00;
       display: block;
       z-index: 12;
       position: absolute;
@@ -727,19 +732,25 @@ body {
       top: 8%;
       -webkit-transition: right linear 0.25s, opacity linear 0.25s;
               transition: right linear 0.25s, opacity linear 0.25s; }
+      .menu-mobile > .mobile .scroll {
+        position: fixed;
+        background-color: #609e00;
+        z-index: 99;
+        min-width: 100vw;
+        -webkit-transition: background-color 200ms linear;
+                transition: background-color 200ms linear; }
       .menu-mobile > .mobile li {
         width: 100vw;
         position: relative;
         top: 20%;
         text-align: center;
-        color: #66a900;
+        color: white;
         font-weight: 800;
-        border: 1px solid #66a900;
         padding: 3%;
-        background-color: white;
+        background-color: #609e00;
         text-transform: uppercase; }
         .menu-mobile > .mobile li > a {
-          color: #66a900;
+          color: white;
           text-decoration: none; } }
 @media only screen and (min-width: 480px) {
   body {
@@ -792,6 +803,7 @@ body {
       color: white; }
     .menu-mobile > .mobile {
       color: white;
+      background-color: #609e00;
       list-style-type: none;
       display: block;
       z-index: 12;
@@ -806,14 +818,13 @@ body {
         position: relative;
         top: 20%;
         text-align: center;
-        color: #66a900;
+        color: white;
         font-weight: 800;
-        border: 1px solid #66a900;
         padding: 3% 0;
-        background-color: white;
+        background-color: #609e00;
         text-transform: uppercase; }
         .menu-mobile > .mobile li > a {
-          color: #66a900;
+          color: white;
           text-decoration: none; } }
 @media only screen and (min-width: 992px) {
   .scroll {

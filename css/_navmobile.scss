@@ -51,8 +51,9 @@
    
         & > .mobile
         {  
-           color:white;
+           color: white;
             list-style-type: none;
+            background-color:#609e00;
             display:block;
           z-index:12;
             position:absolute;
@@ -62,7 +63,16 @@
             //transform:translateX(-300px);
             
 
-    
+     .scroll
+    {
+position:fixed;
+    background-color: #609e00;
+        //60CC00 609e00
+    z-index:99;
+        min-width:100vw;
+        transition:background-color 200ms linear;
+        
+    }
         transition: right linear 0.25s, opacity linear 0.25s;
            
             
@@ -76,15 +86,15 @@
                 position: relative;
                 top:20%;
             text-align: center;
-               color:$greentext;
+               color:white;
                 font-weight: 800;
-                border:1px solid $greentext;
+                //border:1px solid $greentext;
                 padding:3%;
-        background-color:white;
+        background-color:#609e00;
                 text-transform: uppercase;
          & > a 
             {
-                color:$greentext;
+                color:white;
                 text-decoration: none;
                 
                 
@@ -158,6 +168,7 @@
         & > .mobile
         {  
              color:white;
+            background-color:#609e00;
             list-style-type: none;
             display:block;
           z-index:12;
@@ -185,18 +196,18 @@
                 position: relative;
                 top:20%;
             text-align: center;
-               color:$greentext;
+               color:white;
                 font-weight: 800;
-                border:1px solid $greentext;
+               // border:1px solid $greentext;
                 padding:3% 0;
-        background-color:white;
+        background-color:#609e00;
                 text-transform: uppercase;
             
             
         
             & > a 
             {
-                color:$greentext;
+                color:white;
                 text-decoration: none;
                 
                 
